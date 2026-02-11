@@ -25,6 +25,7 @@ main{
     display: flex;
     width: 680px;
     height: auto;
+}
 
 label{
     display: flex;
