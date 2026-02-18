@@ -38,8 +38,9 @@ label{
 
 p{
     font-weight:700;
-    font-size: 50px;
-    height: 30px;
+    font-size: 40px;
+    height: 25px;
+    
 }
 h2{
     font-weight: 400;
@@ -102,4 +103,75 @@ button:hover{
 button:active{
     opacity: .2;
 }
+
+@media (max-width: 768px) {
+  body {
+    height: auto;
+    min-height: 100vh;
+    padding: 24px 16px;
+  }
+
+  img {
+    height: auto;
+    width: min(320px, 80vw);
+    margin-bottom: 10px;
+  }
+
+  main {
+    width: 100%;
+    max-width: 680px;
+  }
+
+  div {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+  }
+
+  input {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  #inputleft {
+    margin-right: 0;
+  }
+}
+
+
+@media (max-width: 480px) {
+  p {
+    font-size: 32px;
+    height: auto;
+    min-height: 40px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 22px;
+    text-align: center;
+  }
+
+  div {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  input {
+    height: 54px;
+    font-size: 18px;
+    margin: 10px 0 12px;
+    max-width: 360px;
+  }
+
+  button {
+    width: 100%;
+    max-width: 360px;
+    height: 56px;
+    font-size: 20px;
+  }
+}
+
 

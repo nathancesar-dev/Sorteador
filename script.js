@@ -6,13 +6,15 @@ function sortearnumero() {
 
     const min = Number(inputmin.value)
     const max = Number(inputmax.value)
-
-    const sorteado = Math.floor(Math.random() * (max - min + 1)) + min
-
     let paragrafo = document.querySelector(".resultado")
 
-    paragrafo.textContent = sorteado
+    if (min < max ) {
+        const sorteado = Math.floor(Math.random() * (max - min + 1)) + min
 
+        paragrafo.textContent = sorteado
+    }else{
+         paragrafo.innerHTML = "O Máximo deve ser maior"
+    }
 }
 
 buttonsortear.addEventListener("click", sortearnumero);
