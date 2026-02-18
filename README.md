@@ -14,18 +14,18 @@ Esse projeto me ajudou a entender melhor como funciona o Math.random() e a manip
 ## 🚀 Tecnologias
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="70"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="70"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="70"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60"/>
 </p>
 
 ---
 
 ## 🧠 O que pratiquei
-- Lógica com if/else
-- Math.random()
-- Manipulação de elementos com querySelector
-- Eventos com addEventListener
+- Lógica com `if/else`
+- `Math.random( )`
+- Manipulação de elementos com `querySelector`
+- Eventos com `addEventListener`
   
 ---
 
